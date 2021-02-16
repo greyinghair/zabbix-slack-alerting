@@ -13,7 +13,7 @@ load_dotenv(find_dotenv()) # Try to find the .env file
 slack_token = os.environ.get("SLACK_TOKEN")
 slack_channel = '#zabbix'
 slack_icon_url = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH-qkvoe5JfAM3GwYuQ5H_lHHStPq7r32pdg&usqp=CAU' # Google image link
-slack_user_name = 'Zabbix (IOM) Starscloud'
+slack_user_name = 'Zabbix'
 
 
 
